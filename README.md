@@ -1,12 +1,10 @@
-# Aula de Hooks no React - Utilizando useState
+# Aula de Hooks no React - Utilizando useEffect
 
 Essa é uma solução do exercício do curso React completo da Origamid.
 
 ### O Exercício
 
-A atividade propôs que fossem criados 3 botões semelhantes a um e-commerce, onde apareceria o produto com descrição, preço e foto solicitado quando fosse clicado. Também era necessário aparecer a mensagem carregando enquanto estivesse aguardando a atualização da página.
-
-![image](./src/assets/useState.png)
+A atividade propôs que fossem criados 2 botões semelhantes a um e-commerce, onde apareceria o produto com descrição e preço solicitado quando fosse clicado. Também era necessário salvar no local storage o produto que tivesse sido escolhido para que toda vez que a página fosse recarregada, voltasse de onde parou.
 
 ### Links
 
@@ -18,15 +16,16 @@ A atividade propôs que fossem criados 3 botões semelhantes a um e-commerce, on
 
 - Condicionais e ternários
 - React Hooks useState
+- React Hooks useEffect
 - Fetch
-- JavaScript Assíncrono
+- LocalStorage
 - Arrays
 - Objetos e funções
 - Componentização
 
 ### O que eu aprendi
 
-Com esse exercício entendi melhor o funcionamento do React principalmente quando ocorre mudança de estado e o que acontece na renderização do App. Além disso foi interessante relembrar o conceito de Fetch, response e async await.
+Com esse exercício consegui entender como usar o useEffect e onde deve ser colocada alguma dependência ou não. Também como usar o localStorage para salvar o que foi selecionado pelo usuário.
 ## Author
 
 - Github - [WellingtonMarques96](https://github.com/WellingtonMarques96)
